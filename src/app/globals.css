@@ -19,3 +19,11 @@ body {
   --lavender: #ebe7f6;
   --blue: #95fcfd;
 }
+body {
+  background-image: url("/bg_1.webp"), url("/bg_2.webp");
+  background-position:
+    100% 0,
+    0 0;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
