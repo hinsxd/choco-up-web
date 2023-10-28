@@ -27,3 +27,23 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: auto, auto;
 }
+
+h1 {
+  @apply text-5xl font-bold md:text-7xl;
+}
+
+h2 {
+  @apply text-5xl font-bold md:text-6xl;
+}
+
+h3 {
+  @apply text-3xl font-bold md:text-5xl;
+}
+
+h4 {
+  @apply text-xl md:text-3xl;
+}
+
+h5 {
+  @apply text-lg md:text-2xl;
+}

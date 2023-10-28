@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="relative overflow-hidden pb-32 pt-28 lg:h-screen lg:pt-32">
       <Container className="flex h-full flex-col justify-center">
-        <h1 className="mb-6 text-7xl font-bold">Choco Up</h1>
+        <h2 className="mb-6 font-bold">Choco Up</h2>
         <div className="mb-6 w-2/3 font-medium lg:w-1/2">
           Helping businesses and e-commerce brands grow by providing easy access
           to working capital that&apos;s flexible and non-dilutive.
