@@ -1,9 +1,10 @@
+import { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
 type ContainerProps = {
   size?: "small" | "medium" | "large";
   className?: string;
-  children?: React.ReactNode;
+  children?: ReactNode;
 };
 
 const maxWidthClasses = {

@@ -6,9 +6,9 @@ const button = cva(
   {
     variants: {
       variant: {
-        white: ["text-chocoup-medium-slate-blue", "bg-chocoup-white"],
+        white: ["text-chocoup-medium-slate-blue", "bg-white"],
         gradient: [
-          "text-chocoup-white",
+          "text-white",
           "bg-[linear-gradient(97deg,var(--medium-slate-blue),#16cbe1)]",
         ],
       },
