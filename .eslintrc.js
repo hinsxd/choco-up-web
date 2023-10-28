@@ -15,6 +15,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
+    "plugin:@next/next/recommended",
   ],
   rules: {
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -72,6 +73,10 @@ module.exports = {
     "prettier/prettier": "warn",
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": "warn",
+    "max-lines": [
+      "error",
+      { max: 150, skipBlankLines: true, skipComments: true },
+    ],
   },
   overrides: [
     {

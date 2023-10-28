@@ -4,5 +4,7 @@
   "arrowParens": "always",
   "singleQuote": false,
   "tabWidth": 2,
-  "useTabs": false
+  "useTabs": false,
+  "tailwindFunctions": ["clsx", "twMerge"],
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

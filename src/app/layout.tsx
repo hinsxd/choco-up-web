@@ -1,9 +1,15 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
+
+import { Navbar } from "@/components/Navbar";
 
 import type { Metadata } from "next";
+
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Choco up",
@@ -17,7 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
