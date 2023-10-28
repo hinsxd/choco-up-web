@@ -20,12 +20,14 @@ body {
   --blue: #95fcfd;
 }
 body {
-  background-image: url("/bg_1.webp"), url("/bg_2.webp");
+  background-image: linear-gradient(180deg, #ffffff00 30%, #ffffffff 100%),
+    url("/bg_1.webp"), url("/bg_2.webp");
   background-position:
-    100% 0,
+    0 0,
+    200px 0,
     0 0;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h1 {
 }
 
 h2 {
-  @apply text-5xl font-bold md:text-6xl;
+  @apply text-4xl font-bold md:text-6xl;
 }
 
 h3 {
