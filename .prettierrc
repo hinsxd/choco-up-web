@@ -5,6 +5,6 @@
   "singleQuote": false,
   "tabWidth": 2,
   "useTabs": false,
-  "tailwindFunctions": ["clsx", "twMerge"],
+  "tailwindFunctions": ["clsx", "twMerge", "cva"],
   "plugins": ["prettier-plugin-tailwindcss"]
 }

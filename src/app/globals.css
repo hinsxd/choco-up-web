@@ -7,3 +7,15 @@ body {
   height: 100%;
   min-height: 100vh;
 }
+
+:root {
+  --dark-slate-grey: #3d3d43;
+  --midnight-blue: #061849;
+  --dark-slate-blue: #43537c;
+  --medium-slate-blue: #7352ff;
+  --white-smoke: #f5f8fa;
+  --white: white;
+  --indian-red: #e35757;
+  --white-smoke-2: #e8e8eb;
+  --lavender: #ebe7f6;
+}
