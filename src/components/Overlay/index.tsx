@@ -45,15 +45,15 @@ export const OverlayProvider = ({ children }: { children?: ReactNode }) => {
       {children}
       {!closed && (
         <div
-          onTransitionEnd={() => {
+          onAnimationEnd={() => {
             if (!open) {
               contentRef.current = null;
               setClosed(true);
             }
           }}
           className={twMerge(
-            "fixed inset-0 z-[1002] bg-black bg-opacity-80 transition-opacity duration-500 will-change-auto",
-            open ? "opacity-100" : "opacity-0",
+            "fixed inset-0 z-[1002] bg-black bg-opacity-80 duration-500 will-change-auto",
+            open ? "animate-fadeIn opacity-100" : "animate-fadeOut opacity-0",
           )}
         >
           <div

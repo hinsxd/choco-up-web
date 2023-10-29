@@ -46,7 +46,7 @@ const DesktopMenuItem = ({ item }: { item: NavItem }) => {
         )}
       </div>
       {expanded && (
-        <div className="absolute right-0 top-3/4 rounded-md border border-gray-200 p-2 shadow-xl">
+        <div className="absolute right-0 top-3/4 rounded-md border border-gray-200 bg-white p-2 shadow-xl">
           {item.items?.map((subItem) => (
             <div className="whitespace-nowrap p-2 text-sm" key={subItem.title}>
               {subItem.title}
