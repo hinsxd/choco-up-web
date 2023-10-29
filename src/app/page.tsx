@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Home/Hero";
+import { SucessStory } from "@/components/Home/SuccessStory";
 import { Unlock } from "@/components/Home/Unlock";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <Unlock />
+      <SucessStory />
     </main>
   );
 }

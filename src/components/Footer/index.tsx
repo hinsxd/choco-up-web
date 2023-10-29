@@ -72,7 +72,7 @@ export const Footer = () => {
         <div className="grid flex-1 grid-cols-2 gap-8 md:grid-cols-5 lg:grid-cols-3">
           {footerItems.map((item) => (
             <div key={item.title}>
-              <div className="text-chocoup-blue mb-4 font-bold">
+              <div className="mb-4 font-bold text-chocoup-blue">
                 {item.title}
               </div>
               {item.items.map((item) => (
