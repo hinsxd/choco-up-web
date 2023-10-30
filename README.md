@@ -40,6 +40,16 @@ https://nextjs.org/docs/app/building-your-application/deploying
 - Prettier
 - ESLint TailwindCSS Plugin
 - [class-variance-authority](https://cva.style/)
+- husky
+- link-staged
+
+## Explanation
+
+Eslint and Prettier are used to enforce code style and formatting. I also added a TailwindCSS plugin for eslint to make sure that the TailwindCSS classes are sorted correctly.
+
+Prettier rules are integrated into eslint so that we can use `eslint --fix` to fix the formatting errors. This might not be the best practice, but I like it. Let me know if you have a better solution.
+
+In case someone did not use the plugin, I also added a pre-commit hook to fix the eslint errors.
 
 # Philosophy
 
